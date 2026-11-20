@@ -27,5 +27,4 @@ def predict(study_hours: float, attendance: float, previous_marks:float):
     )
     prediction = model.predict(input_data)
     return {"prediction_result": prediction[0]}
- 0
 
