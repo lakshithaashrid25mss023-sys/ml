@@ -1,0 +1,13 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+mlruns
+Dataset
+Models/random_forest_model.pkl
+.env
+.env.*

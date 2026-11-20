@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated MLflow and local database data
+mlruns/
+mlflow.db
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
